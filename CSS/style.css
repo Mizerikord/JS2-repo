@@ -1,0 +1,45 @@
+.top{
+    display: flex;
+    justify-content: end;
+    outline: 1px solid grey;
+}
+
+.cart-button{
+    color: white;
+    background-color: black;
+    min-height: 20px;
+    min-width: 100px;
+}
+
+.goods{
+    margin: 10px 20px;
+    min-height: 150px;
+    outline: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.goods-list{
+    margin: 10px;
+    outline: 1px solid grey;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.goods-list>h3,p{
+    margin: 0px;
+}
+
+.goods-list-img{
+    margin: 10px 10px 0px 10px;
+}
+
+.add-to-cart{
+    border-color: grey;
+    border-radius: 15px;
+    margin: 5px;
+}
